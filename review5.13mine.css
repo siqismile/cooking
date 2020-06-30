@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 头部 */
+
+
+/* 先给头部加一个背景 */
+
+header {
+    background-color: turquoise;
+    width: 100%;
+}
+
+
+/* 左上角雪糕图标 */
+
+header .logo {
+    float: left;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+header .logo img {
+    width: 60px;
+}
+
+
+/* 中间的题目 */
+
+header .title {
+    width: 175px;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 50px;
+    color: salmon;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+
+/* 右边的用户登录 */
+
+header .user {
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+header .user ul li {
+    float: left;
+    list-style-type: none;
+    width: 80px;
+    line-height: 30px;
+    color: rgb(146, 110, 110);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+
+/* 中间的内容 */
+
+main {
+    background-color: turquoise;
+    width: 100%;
+}
+
+
+/* 最上面的草莓蛋糕 */
+
+main .top {
+    width: 100px;
+    margin: 0 auto;
+}
+
+main .top img {
+    width: 100px;
+}
+
+
+/* 之后的大菜单 */
+
+main .center .menu {
+    margin: 0 auto;
+    width: 490px;
+    height: 50px;
+}
+
+main .center .menu ul li {
+    float: left;
+    list-style-type: none;
+    width: 80px;
+    font-size: 18px;
+    text-align: center;
+}
+
+main .center .menu ul li a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+/* 未访问链接*/
+
+main .center .menu ul li a:link {
+    color: #5c52578f;
+}
+
+
+/* 已访问链接 */
+
+main .center .menu ul li a:visited {
+    color: rgb(231, 48, 140);
+}
+
+
+/* 鼠标移动到链接上 */
+
+main .center .menu ul li a:hover {
+    color: rgb(230, 38, 86);
+    font-size: 21px;
+}
+
+
+/* 鼠标点击时 */
+
+main .center .menu ul li a:active {
+    color: rgb(203, 53, 223);
+}
+
+/*轮播图*/
+main .center .big-pic{
+    width: 1050px;
+    margin: 0 auto;
+}
+
+main .center .big-pic img{
+    width: 1050px;
+    margin: 0 auto;
+}
+/*底部的三个展示区*/
+.main .bottom{
+    background: coral;
+    width: 1000px;
+}
+.main .bottom .show{
+    width: 33%;
+}
