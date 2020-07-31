@@ -131,20 +131,45 @@ main .center .menu ul li a:active {
 }
 
 /*轮播图*/
-main .center .big-pic{
+main .center .big-pic {
     width: 1050px;
     margin: 0 auto;
 }
 
-main .center .big-pic img{
+main .center .big-pic img {
     width: 1050px;
     margin: 0 auto;
 }
+
 /*底部的三个展示区*/
-.main .bottom{
-    background: coral;
+main .bottom {
     width: 1000px;
+    margin: 0 auto;
+    height: 200px;
 }
-.main .bottom .show{
-    width: 33%;
+
+main .bottom .cake .show {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main .bottom .cake .show img {
+    width: 40%;
+}
+main .bottom .cake .show .name{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: lightcoral;
+}
+/*脚部*/
+footer{
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 华文隶书;
+    color: rgb(230, 38, 86);
+    line-height: 100px;
+    background-color: turquoise;
 }
